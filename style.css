@@ -1,0 +1,32 @@
+* {
+    background-color: rgb(189, 184, 184);
+}
+
+#body {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.x-design {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(189, 184, 184);
+    display: flex;
+}
+
+.y-box {
+    padding: auto;
+    width: 100%;
+    background-color: white;
+    height: 100%;
+}
+
+.y-box:hover {
+    background-color: burlywood;
+}
