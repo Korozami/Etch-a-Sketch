@@ -3,6 +3,7 @@
 }
 
 #body {
+    margin-left: 35%;
     width: 500px;
     height: 500px;
     background-color: white;
@@ -11,6 +12,14 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+}
+
+.button {
+    padding: 20px 120px;
+    margin-left: 42%;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    background-color: white;
 }
 
 .x-design {
@@ -27,6 +36,10 @@
     height: 100%;
 }
 
+.y-box.active {
+    background-color: red;
+}
+
 .y-box:hover {
-    background-color: burlywood;
+    background-color: pink;
 }
